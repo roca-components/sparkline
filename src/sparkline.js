@@ -3,7 +3,7 @@
 //
 // adapted from @potch:
 // https://gist.github.com/potch/ee16dfec3266c50d2f93
-function sparkline(series, width) {
+export default function sparkline(series, width) {
 	let len = series.length;
 	width = width * 2 || Math.floor(len / 2) * 2;
 	let chunk = len / width;
