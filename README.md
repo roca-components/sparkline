@@ -1,5 +1,5 @@
-Sparkline
-=========
+[Sparkline](http://roca-components.github.io/sparkline/)
+========================================================
 
 ```html
 <ol is="spark-line">
